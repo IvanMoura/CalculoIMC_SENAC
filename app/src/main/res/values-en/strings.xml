@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Calculo IMC</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings do App peso/a^2 -->
+
+    <string name="altura">height</string>
+    <string name="peso">Weight</string>
+    <string name="calcular">Calculate</string>
+    <string name="resultado">result:</string>
+
+    <string name="Abaixo"> under weight!</string>
+    <string name="ideal"> Ideal weight parabens!</string>
+    <string name="levemente"> slightly overweight!</string>
+    <string name="grau1"> obsidade grau I!</string>
+    <string name="grau2"> obsidade grau II severa!</string>
+    <string name="grau3"> obsidade III (mórbida)!</string>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main" tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorFonte"
+    android:weightSum="1">
+
+    <TextView android:text="@string/peso"
+        style="@style/ThemeApp"/>
+
+    <EditText
+        android:id="@+id/edtPeso"
+        style="@style/ThemeApp"/>
+
+    <TextView android:text="@string/altura"
+        style="@style/ThemeApp"/>
+    <EditText
+
+        android:id="@+id/edtAltura"
+        style="@style/ThemeApp"/>
+
+    <Button
+        android:text="@string/calcular"
+        style="@style/ThemeApp"
+        android:id="@+id/btn_calcular"/>
+
+    <TextView
+        android:text="@string/resultado"
+        style="@style/ThemeApp"/>
+
+    <TextView android:text=""
+        android:layout_width="350dp"
+        android:background="@color/colorFonte"
+        android:layout_weight="0.22"
+        style="@style/ThemeApp"
+        android:id="@+id/txtResultado"/>
+</LinearLayout>
